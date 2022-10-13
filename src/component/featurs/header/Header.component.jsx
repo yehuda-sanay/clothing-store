@@ -10,6 +10,8 @@ export default function Header() {
   return (
     <div className="header">
       <h1>Header</h1>
+      {/* <Link to="/">Home</Link>   
+    <Link to="sing in">sing in</Link>    */}
       <Stack spacing={2}>
       <Link className="text-link" to="/"><Button variant="contained" disableElevation>
       Home

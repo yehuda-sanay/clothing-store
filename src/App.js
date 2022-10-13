@@ -8,11 +8,11 @@ import Routing from './Router.component';
 function App() {
   return (
     <div className="App">
-      <Header/>
       <BrowserRouter>
+      <Header/>
       <Routing/>
-      </BrowserRouter>
       <Footer/>
+      </BrowserRouter>
 
     </div>
   );
