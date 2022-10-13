@@ -1,0 +1,10 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.text-links{
+    display: flex;
+    flex-direction: row;
+    
+}

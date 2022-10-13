@@ -1,66 +1,63 @@
-import * as React from 'react';
-import Box from '@mui/material/Box';
-import TextField from '@mui/material/TextField';
+// import * as React from 'react';
+// import Box from '@mui/material/Box';
+// import TextField from '@mui/material/TextField';
 
-export default function SingIn() {
-  return (
-    <Box
-      component="form"
-      sx={{
-        '& .MuiTextField-root': { m: 1, width: '25ch' },
-      }}
-      noValidate
-      autoComplete="off"
-    >
-      <div>
-        <TextField
-          error
-          id="outlined-error"
-          label="Error"
-          defaultValue="Hello World"
-        />
-        <TextField
-          error
-          id="outlined-error-helper-text"
-          label="Error"
-          defaultValue="Hello World"
-          helperText="Incorrect entry."
-        />
-      </div>
-      <div>
-        <TextField
-          error
-          id="filled-error"
-          label="Error"
-          defaultValue="Hello World"
-          variant="filled"
-        />
-        <TextField
-          error
-          id="filled-error-helper-text"
-          label="Error"
-          defaultValue="Hello World"
-          helperText="Incorrect entry."
-          variant="filled"
-        />
-      </div>
-      <div>
-        <TextField
-          error
-          id="standard-error"
-          label="Error"
-          defaultValue="Hello World"
-          variant="standard"
-        />
-        <TextField
-          error
-          id="standard-error-helper-text"
-          label="Error"
-          defaultValue="Hello World"
-          helperText="Incorrect entry."
-          variant="standard"
-        />
-      </div>
-    </Box>
-  );
-}
+// export default function SingIn() {
+  
+//   return (
+//     <Box
+//       component="form"
+//       sx={{
+//         '& .MuiTextField-root': { m: 1, width: '25ch' },
+//       }}
+//       noValidate
+//       autoComplete="off"
+//     >
+//       <div>
+//         <TextField
+//           required
+//           id="outlined-error"
+//           label="First name"
+//           defaultValue=""
+//         />
+//         </div>
+//         <div>
+//         <TextField
+//           required
+//           id="outlined-error-helper-text"
+//           label="Last name"
+//           defaultValue=""
+//           helperText="Incorrect entry."
+//         />
+//       </div>
+//       <div>
+//         <TextField
+//           required
+//           id="filled-error"
+//           label="Email"
+//           defaultValue=""
+//           variant="filled"
+//         />
+//         </div>
+//       <div>
+//         <TextField
+//           required
+//           id="standard-error"
+//           label="password"
+//           defaultValue=""
+//           variant="standard"
+//         />
+//         </div>
+//         <div>
+//         <TextField
+//           required
+//           id="standard-error-helper-text"
+//           label="check password"
+//           defaultValue=""
+//           helperText="Incorrect entry."
+//           variant="standard"
+//         />
+//       </div>
+//     </Box>
+//   );
+// }
